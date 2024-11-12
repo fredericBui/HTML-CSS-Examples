@@ -1,0 +1,119 @@
+body {
+    margin: 0px
+}
+
+#section-1,
+#section-2,
+#newsletter {
+    margin: 5%;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    nav {
+        display: none;
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header div {
+        display: flex;
+        justify-items: end;
+        align-items: center;
+    }
+
+    header div i {
+        font-size: x-large;
+    }
+}
+
+
+#CTA video {
+    width: 100%;
+}
+
+#section-1 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    #section-1 div {
+        grid-template-columns: 1fr;
+    }
+}
+
+#section-1 div article {
+    border: 1px solid black;
+}
+
+#section-1 div article img {
+    width: 100%;
+}
+
+#section-2 button {
+    background-color: aqua;
+    border: none;
+    padding: 1em 5em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+#section-2 button:hover {
+    background-color: rgb(255, 208, 0);
+    transition: background-color 1.5s;
+}
+
+#newsletter {
+    text-align: center;
+}
+
+#newsletter form div:nth-child(1) input {
+    width: 25%;
+    padding: 1em 2em;
+    margin: 1em;
+    border-radius: 2em;
+    border: 1px solid black;
+}
+
+#newsletter form>input {
+    margin: 1em;
+    background-color: aqua;
+    border: none;
+    padding: 1em 5em;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+footer {
+    padding: 1em;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

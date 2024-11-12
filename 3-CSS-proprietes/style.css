@@ -1,0 +1,31 @@
+body {
+    margin: 0px
+}
+
+main {
+    margin: 5%;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+section div article{
+    border: 1px solid black;
+}
+
+footer {
+    padding: 1em;
+    background-color: aqua;
+}
